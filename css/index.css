@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background: linear-gradient(90deg, #071818 0%, #1e37a8 100%);
+  }
+
+  .main{
+    max-width: 1200px;
+    height: auto;
+    margin: auto ;
+    
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-align: center;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .container{
+    max-width: 1000px;
+    width: 1000px;
+    height: auto;
+    margin: 20px auto 10px auto;
+    position: relative;
+    left: 80px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #6784b8 0%, rgba(95, 184, 189, 0.86) 100%);
+    border-radius: 10px;
+  }
+
+  h1{
+    text-align:center;
+    
+   
+}
+
+table{
+   border:1px solid black;
+    border-collapse:collapse;
+    width:100%;
+    height: auto;
+    background-color: honeydew;
+    margin-bottom: 20px;
+   
+}
+
+
+th{
+    background-color: black;
+    color: white;
+}
+
+th,td{
+
+    text-align:center;
+    padding:8px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even){
+    background-color:#f2f2f2;
+
+}
+
+.search{
+    margin: 10px 0 10px 0;
+}
+
+input[type="search"]{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.search button{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: #e27a39;
+    color: white;
+}
